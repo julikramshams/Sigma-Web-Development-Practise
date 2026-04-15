@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object Fit and Position</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 250px;
+            border: 2px solid black;
+            /* background-color: rgb(255, 220, 226); */
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfOYlgo85r1E92hWY944lDl0SS3DwOpsA7kg&s);
+            /* background-size: cover; */
+            background-position: center;/* Options: left, right, top, bottom, center or specific coordinates */
+            background-repeat: no-repeat; /* Options: repeat, repeat-x, repeat-y, no-repeat */
+            background-clip: border-box; /* Options: border-box, padding-box, content-box */
+        }
+        img {
+            width: 400px;
+            height: 200px;
+            object-fit: cover; /* Options: fill, contain, cover, none, scale-down */
+            object-position: center; /* Options: left, right, top, bottom, center or specific coordinates */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="chess.jpg" alt="A Chess Board"> -->
+    </div>
+</body>
+</html>

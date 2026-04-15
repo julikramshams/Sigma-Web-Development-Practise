@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows and Outlines</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            outline: 2px solid blue;
+        }
+        .text-shadow{
+            text-shadow: 2px 2px 4px rgba(253, 6, 6, 0.911);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        I am a Box
+    </div>
+    <p class="text-shadow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum quibusdam illum quod odio veritatis ab tenetur odit. Ratione rerum nobis in natus?
+    </p>
+</body>
+</html>
+
+
+<!-- Outlines
+
+An outline is a line that is drawn around elements, outside the borders, to make the element "stand out". It's commonly used for accessibility purposes, like highlighting focused elements.
+
+The Syntax for Outlines is as follows:
+
+outline: width style color;
+
+width: Sets the outline width.
+style: Determines the style of the outline such as solid, dotted, or dashed.
+color: Sets the outline color.
+
+Here is an example:
+
+.button-element:focus { outline: 2px solid blue; }
+
+Differences between Outlines and Borders:
+
+While both can visually appear similar, outlines differ from borders in a few ways:
+
+Position: Outlines don't take up space; they're drawn around the element, outside of any border.
+
+Offset: Using the outline-offset property, you can set the space between an outline and the edge or border of an element.
+
+Width: Borders can have varying widths on different sides, outlines have a uniform width.
+
+Rounded Corners: Borders can have rounded corners using border-radius, while outlines generally cannot. -->

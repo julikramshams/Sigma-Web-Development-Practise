@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sizing</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        box-sizing: border-box; /* Ensures padding and border are included in the width */
+        border: 2px solid black;
+        /* width: 1920px;  */
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+        background-color: lightcoral;
+      }
+      .container {
+        box-sizing: border-box; /* Ensures padding and border are included in the width */
+        border: 2px solid black;
+        /* width: 1920px;  */
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: 23px auto;
+        font-size: 16px;
+        background-color: lightcoral;
+      }
+      html {
+        font-size: 12px; /* Base font size */
+      }
+      .container p{
+        /* font-size: 2em; */
+        font-size: 2rem;
+        /* width: 50%; */
+      }
+      .mycont {
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 23px auto;
+        /* background-color: rgb(230, 17, 17); */
+        color: violet;
+        font-size: 22px;
+        width: 80vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">This is a box.</div>
+    <div class="container">
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempore
+      voluptates quod aliquid officia eum magni fuga assumenda, illo
+      exercitationem cumque et ut minima, maxime amet! Accusamus nulla similique
+      aperiam voluptate nobis, dolorum ipsum dolores corrupti nihil quia ad
+      ratione assumenda, consectetur architecto, enim praesentium tempore dolor?
+      Placeat cum ab consectetur dolorum, quisquam ducimus fugit ipsa.
+      </p>
+    </div>
+    <div class="mycont">
+      I am another container.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution of Exercise 6 by SHAMS</title>
+    <link
+      rel="stylesheet"
+      href="https://ultraedit.com/wp-content/themes/Divi/style.css"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        color: gold;
+      }
+      header {
+        background-color: #070707;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      li {
+        margin: 0 35px;
+        font-size: 18px;
+        position: relative;
+      }
+      .logo{
+        cursor: pointer;
+      }
+      .box {
+        font-family: "Courier New", Courier, monospace;
+        background-color: gold;
+        color: black;
+        font-weight: bolder;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+      }
+      @font-face {
+        font-family: "ETmodules";
+        src: url("https://db.onlinewebfonts.com/t/9d25ea5c587d0f9d470aa9a3634735ea.eot");
+        src: url("https://db.onlinewebfonts.com/t/9d25ea5c587d0f9d470aa9a3634735ea.eot?#iefix")
+            format("embedded-opentype"),
+          url("https://db.onlinewebfonts.com/t/9d25ea5c587d0f9d470aa9a3634735ea.woff2")
+            format("woff2"),
+          url("https://db.onlinewebfonts.com/t/9d25ea5c587d0f9d470aa9a3634735ea.woff")
+            format("woff"),
+          url("https://db.onlinewebfonts.com/t/9d25ea5c587d0f9d470aa9a3634735ea.ttf")
+            format("truetype"),
+          url("https://db.onlinewebfonts.com/t/9d25ea5c587d0f9d470aa9a3634735ea.svg#ETmoudles")
+            format("svg");
+      }
+
+      li::after {
+        font-family: "ETmodules";
+        content: "3";
+        font-size: 16px;
+        position: absolute;
+        left: 50;
+        top: 0;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .language {
+        position: relative;
+      }
+      .language::after {
+        content: "";
+        font-family: "ETmodules";
+        font-size: 20px;
+        font-weight: 100;
+        position: absolute;
+        right: 53px;
+        top: -3px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="Frame-1-2.png" alt="Logo of the website" />
+        </div>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#our-company">Our company</a></li>
+          <li><a href="#about-us">About us</a></li>
+        </ul>
+        <div class="box">BUY NOW</div>
+        <div class="language">English</div>
+        <div class="search"></div>
+      </nav>
+    </header>
+  </body>
+</html>

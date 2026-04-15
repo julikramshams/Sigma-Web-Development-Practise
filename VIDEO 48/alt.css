@@ -1,0 +1,37 @@
+        .box {
+            height: 121px;
+            width: 121px;
+            background-color: red;
+            border-radius: 70px;
+            position: absolute;
+            bottom: 0;
+            left: 0; 
+            animation: bounce 1s infinite alternate ease-out, 
+                       straight 10s infinite alternate linear;
+        }
+
+        .container {
+            position: relative;
+            height: 80vh;
+            width: 80vw;
+            background-color: blue;
+
+        }
+        @keyframes bounce {
+            from {
+                bottom: 0;
+            }
+            to {
+                bottom: 50%;
+            }
+            
+        }
+        @keyframes straight {
+            from {
+                left: 0;
+            }
+            to {
+                left: 80%;
+            }
+            
+        }

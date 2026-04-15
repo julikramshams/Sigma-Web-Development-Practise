@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Filters</title>
+    <style>
+      img {
+        width: 100%;
+        height: auto;
+        /* filter: blur(2.5px); */
+      }
+      .coding {
+        filter: brightness(250%);
+        filter: contrast(300%);
+        /* filter: grayscale(100%); */
+        /* filter: sepia(100%); */
+        /* filter: invert(1); */
+        /* filter: opacity(50%); */
+      }
+      .anime {
+        /* filter: brightness(100%); */
+        filter: contrast(200%);
+      }
+      .japanese {
+        filter: drop-shadow(16px 16px 20px rgb(245, 65, 176)) brightness(150%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="coding"
+        src="https://images.stockcake.com/public/4/3/c/43c47472-c968-4401-9e94-80f9caaa1a68_large/futuristic-coding-setup-stockcake.jpg"
+        alt=""
+      />
+      <img
+        class="anime"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7j1C6m8xuYBPERO-he55khkRn65m5k68gjS_MsNSOIkznhfrcLh7N8jxIu-oduIVks-4rw&s"
+        alt=""
+      />
+      <img
+        class="japanese"
+        src="https://static.vecteezy.com/system/resources/previews/029/244/903/non_2x/photorealistic-image-of-a-beautiful-japanese-girl-among-cherry-blossoms-cosmetics-advertising-ai-generated-photo.jpg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

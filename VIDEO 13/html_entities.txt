@@ -1,0 +1,88 @@
+               Basic Reserved Characters
+Entity                Name	          Character Description
+&lt;	               <	           Less-than sign
+&gt;	               >	           Greater-than sign
+&amp;	               &	           Ampersand
+&quot;	               "	           Double quotation mark
+&apos;	               '	           Apostrophe/single quote
+&nbsp;		                           Non-breaking space
+
+
+
+                Currency Symbols
+Entity                Name	                           Character Description
+&euro;	               €	                                 Euro
+&pound;	               £	                                 British Pound
+&yen;	               ¥	                                 Japanese Yen
+&cent;	               ¢	                                 Cent
+&dollar;	           $	                                 Dollar
+
+
+
+               Mathematical Symbols
+Entity                        Name	              Character	Description
+&plusmn;	                   ±	                  Plus-minus
+&times;	                       ×	                  Multiplication sign
+&divide;	                   ÷	                  Division sign
+&sum;	                       ∑	                  Summation
+&infin;	                       ∞	                  Infinity
+&pi;	                       π	                  Pi
+&radic;	                       √	                  Square root
+
+
+
+                         Arrows
+Entity                            Name	          Character	Description
+&larr;	                           ←	            Left arrow
+&rarr;	                           →	            Right arrow
+&uarr;	                           ↑	            Up arrow
+&darr;	                           ↓	            Down arrow
+&harr;	                           ↔	            Left-right arrow
+
+
+
+                    Greek Letters
+Entity                           Name	          Character	Description
+&Alpha;	                          Α	                   Alpha
+&Beta;	                          Β	                   Beta
+&gamma;	                          γ	                   Gamma
+&Delta;	                          Δ	                   Delta
+&omega;	                          ω	                   Omega
+
+
+
+                Common Symbols
+Entity                          Name	      Character	Description
+&copy;	                         ©	                Copyright
+&reg;	                         ®	                Registered trademark
+&trade;	                         ™	                Trademark
+&hearts;	                     ♥	                Heart
+&spades;	                     ♠	                Spade
+&clubs;	                         ♣	                Club
+&diams;	                         ♦	                Diamond
+
+
+
+            Accented Characters
+Entity                          Name	      Character	Example
+&aacute;	                     á	            Jos&eacute; → José
+&egrave;	                     è	            Caf&egrave; → Café
+&iuml;	                         ï	            na&iuml;ve → naïve
+&ouml;	                         ö	            Schr&ouml;dinger → Schrödinger
+
+
+
+            Technical Symbols
+Entity                          Name	      Character	Description
+&micro;	                         µ	             Micro (e.g., micrometers)
+&deg;	                         °	             Degree symbol
+&para;	                         ¶	             Paragraph mark
+&permil;	                     ‰	             Per mille
+
+
+
+            How to Use Entities
+Named Entities: &entity_name; (e.g., &copy; → ©).
+Numeric Codes: &#code; (decimal) or &#xcode; (hexadecimal).
+Example: &#169; or &#xA9; → ©.
+

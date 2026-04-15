@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: rgb(0, 186, 248);
+        }
+        /* Class Selector */
+        .red {
+            background-color: red;
+        }
+        #green {
+            background-color: green;
+        }
+        /* Child Selector  */
+         div > p{
+            background-color: yellow;
+        }
+        /* Descendant Selector */
+        span p {
+           background-color: rgb(0, 255, 85);
+        }
+        /* Universal Selector */
+        * {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: rgb(255, 7, 255);
+        }
+        a:link {
+            color: rgb(0, 0, 255);
+        }
+        a:hover {
+            color: rgb(255, 0, 0);
+        }
+        a:active{
+            background-color: aqua ;
+        }
+        pre:first-child {
+            background-color: rgb(111, 0, 255);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am a div
+    </div>
+    <div>
+        I am another div
+    </div>
+    <div id="green">
+        I am a div too
+    </div>
+    <div>
+      <p>I am a div in paragraph</p>
+    </div>
+    <span>
+        <article>
+        <p>I am another div in paragraph</p>
+        </article>
+    <span>
+    <main>
+            <a href="https://google.com">Go to Google</a><br>
+            <a href="https://facebook.com">Go to Facebook</a>
+    </main>
+    <section>
+        <pre>I am the First Child</pre>
+        <pre>I am the Second Child</pre>
+    </section>
+</body>
+</html>
