@@ -15,3 +15,25 @@ else if(age == 0){
 else{
     console.log("Nah dude,, u can't drive")
 }
+
+let a = 10;
+let b = 20;
+
+let c = a<b ? (a+b): (a-b);
+
+console.log(c)
+
+/*
+This translates to:
+
+if (a<b){
+    c = a+b
+    console.log(c)
+}
+
+else{
+    c = a-b
+    console.log(c)
+}
+
+*/
